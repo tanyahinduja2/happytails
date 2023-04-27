@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Details Page</title>
+    <link rel="stylesheet" href="adopt-dog1.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<div>
+    <nav class="navbar">
+        <div class="navbar-container container">
+          <input type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li><a href="/donate.html">Donation</a></li>
+            <li><a href="/shelters.html">Shelters</a></li>
+            <li><a href="/adopt.html">Adoption</a></li>
+            <li><a href="/happy tails/chatroom/chatroom.html">Community</a></li>
+          </ul>
+          <h1 class="logo">happytails</h1>
+        </div>
+    </nav>
+</div>
+    <div class="flex-box">
+        <div class="left">
+            <div class="img">
+                <img class="img-loc" src="">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="name"></div>
+            <div class="breed"></div>
+            <div class="age"></div>
+            <div class="description"></div>
+            <div class="btn-box">
+                <a href="/catshelter.html"><button class="cart-btn">Adopt Me</button></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="cat1.js"></script>
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+</html>

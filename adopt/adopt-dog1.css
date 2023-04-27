@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: auto;
+    background-color: hsl(42, 71%, 87%);
+}
+
+.flex-box{
+    display: flex;
+    width: 1000px;
+    margin: 0px auto;
+    align-items: center;
+    flex-direction: row;
+}
+.left{
+    width: 40%;
+}
+
+.name, .breed, .age, .description {
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 10px
+}
+
+.description {
+    width: 500px;
+    
+}
+
+.right {
+    margin-top: 120px;
+}
+.img{
+    margin-top: 100px;
+    width: 250px;
+}
+.img img{
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 250px;
+    width: 240px;
+    border: 5px solid hsl(0, 67%, 71%);
+    border-radius: 50%
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.btn-box{
+    display: flex;
+    margin-top: 40px;
+}
+.btn-box button{
+    font-size: 18px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+.cart-btn{
+    background-color: hsl(0, 67%, 71%);
+    margin-right: 20px;
+}
+
+.cart-btn:hover{
+    background-color: hsl(0, 76%, 61%);
+    color: white;
+}
